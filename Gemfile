@@ -23,7 +23,7 @@ group :kitchen_vagrant do
 end
 
 group :kitchen_rackspace do
-  gem 'kitchen-rackspace'
+  gem 'kitchen-rackspace', '>= 0.21.1'
 end
 
 group :development do
