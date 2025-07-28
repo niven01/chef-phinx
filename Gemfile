@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 group :lint do
-  gem 'foodcritic', '~> 3.0'
-  gem 'foodcritic-rackspace-rules'
+  gem 'foodcritic', '~> 4.0', '>= 4.0.0'
+  gem 'foodcritic-rackspace-rules', '>= 1.4.1'
   gem 'rubocop', '~> 0.24'
 end
 
@@ -31,7 +31,7 @@ group :development do
   gem 'rb-fsevent'
   gem 'guard'
   gem 'guard-kitchen'
-  gem 'guard-foodcritic'
+  gem 'guard-foodcritic', '>= 1.1.0'
   gem 'guard-rubocop'
   gem 'fauxhai'
   gem 'pry-nav'
